@@ -1,0 +1,126 @@
+/*General styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --greenlish: #00ffff;
+    --purplish: #010165;
+    --orangelish: #eb6536;
+    --whitelish: #fff;
+    --blacklish: #000;
+}
+
+body {
+    background-color: var(--purplish);
+    font-family: "Work Sans";
+    color: var(--greenlish);
+}
+
+/*Header starts */
+
+#logo {
+    background-color: var(--greenlish);
+    text-align: center;
+}
+
+/*Header ends */
+
+/*Section instruction starts */
+
+#instructions-title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: normal;
+    display: inline;
+}
+
+table {
+    width: 40%;
+    margin: 0 auto;
+    border-spacing: 0 20px;
+}
+
+tr {
+    padding-bottom: 20px;
+}
+
+.number {
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+.instruction {
+    color: var(--whitelish);
+}
+
+/*Section instruction ends */
+
+/*Main starts */
+
+main {
+    text-align: center;
+}
+
+.doors:hover {
+    padding: 10px;
+    cursor: pointer;
+}
+
+button {
+    padding: 20px 20px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    border: none;
+    background-color: var(--orangelish);
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+/*Main ends */
+
+/*Aside starts */
+
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.score-info {
+    text-align: center;
+}
+
+.steak {
+    color: var(--whitelish);
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.score {
+    color: var(--blacklish);
+    background-color: var(--greenlish);
+    margin-bottom: 50px;
+    display: inline-block;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*Aside ends */
+
+
+
+

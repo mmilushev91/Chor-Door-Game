@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chor Door Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!--Header starts-->
+    <header id="logo">
+        <img src="https://content.codecademy.com/projects/chore-door/images/logo.svg"" alt="Game title image">
+    </header>
+    <!--Header ends-->
+
+    <!--Section instrucstions starts-->
+    <section id="instructions">
+        <header id="instructions-title">
+            <img src="https://content.codecademy.com/projects/chore-door/images/star.svg" alt="Star image">
+            <img src="https://content.codecademy.com/projects/chore-door/images/star.svg" alt="Star image">
+            <h1>Instructions</h1>
+        </header>
+        <table>
+            <tr>
+                <td class="number">1</td>
+                <td class="instruction">Hiding behind one of these doors is the ChoreBot.</td>
+            </tr>
+            <tr>
+                <td class="number">2</td>
+                <td class="instruction">Your mission is to open all of the doors without running into the ChoreBot.</td>
+            </tr>
+            <tr>
+                <td class="number">3</td>
+                <td class="instruction">If you manage to avoid the ChoreBot until you open the very last door, you win!</td>
+            </tr>
+            <tr>
+                <td class="number">4</td>
+                <td class="instruction">See if you can score a winning streak!</td>
+            </tr>
+        </table>
+    </section>
+    <!--Section instrucstions ends-->
+
+    <!--Main starts-->
+    <main>
+        <div id="doors">
+            <img class="doors" id="door-1" src="https://content.codecademy.com/projects/chore-door/images/closed_door.svg" alt="Closed door image">
+            <img class="doors" id="door-2" src="https://content.codecademy.com/projects/chore-door/images/closed_door.svg" alt="Closed door image">
+            <img class="doors" id="door-3" src="https://content.codecademy.com/projects/chore-door/images/closed_door.svg" alt="Closed door image">
+        </div>
+        <button>
+            Good Luck!
+        </button>
+    </main>
+    <!--Main ends-->
+
+    <!--Aside starts-->
+
+    <aside>
+        <div class="score-info">
+            <p class="steak">Current steak:</p>
+            <p class="score">0</p>
+        </div>
+        <div class="score-info">
+            <p class="steak">Best steak:</p>
+            <p class="score">0</p>
+        </div>
+    </aside>
+
+    <!--Aside ends-->
+
+    <script src="./script.js"></script>
+</body>
+</html>
